@@ -1,0 +1,115 @@
+@import "../../vars.css";
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0px); /* Corrección del valor en el eje Y */
+  }
+}
+
+
+.heroImg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 50%;
+  filter:brightness(90%);
+  z-index: 1;
+  animation-name: floating;
+  animation-duration: 2s; /* Duración de la animación (2 segundos en este ejemplo) */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 23px;
+  font-family: var(--font-montserrat);
+  filter: drop-shadow(2px, 4px, 4px #a3a3a3);
+}
+
+.description {
+  font-size: 30px;
+  font-family: var(--font-montserrat);
+  margin-top: 52px;
+  margin-bottom: 20px;
+}
+
+.contactBtn {
+  text-decoration: none;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 25px;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* brillo del fondo */
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: 10 vw;
+  border-radius: 764px;
+  background: rgba(154, 153, 153, 0.89);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vh;
+  min-width: 350px;
+  min-width: 250px;
+  top: -128px;
+  right: -25 vw;
+  border-radius: 764px;
+  background: rgba(94, 94, 94, 0.89);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .content {
+    align-items: center;
+  }
+}

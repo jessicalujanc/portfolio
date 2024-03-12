@@ -1,0 +1,13 @@
+:root {
+    /*colours*/
+    --color-text: #fff;
+    --color-primary: #7e7e7e;
+    --color-secondary: rgb(104, 241, 212);
+    --color-dark: #000000;
+    --color-bg: rgb(27, 31, 31);
+
+    /*fonts*/
+    --font-robot: "Montserrat";
+
+    
+}

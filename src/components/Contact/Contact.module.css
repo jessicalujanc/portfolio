@@ -1,0 +1,100 @@
+@import "../../vars.css";
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.icon {
+    width: 25px;
+}
+
+.text a {
+text-decoration: none;
+color: var(--color-text);
+font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.text h2 {
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text p {
+    animation: none;
+    visibility: hidden;
+  }
+
+  .text a {
+    margin-bottom: 30px;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
