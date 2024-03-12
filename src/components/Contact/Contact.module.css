@@ -97,4 +97,7 @@ font-size: 30px;
   .links {
     align-items: center;
   }
+
+  .link {
+    font-size: 15px
 }
