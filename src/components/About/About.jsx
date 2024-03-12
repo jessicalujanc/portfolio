@@ -18,9 +18,8 @@ export const About = () => {
               <h3>UX/UI Design</h3>
               <p>
                 UX research and brenchmarketing.
-                Prototipes building with Figma. 
-                Background in psichology as a plus to optimize app´s functionality and
-                usability.
+                Prototipes building with Figma.
+                Background in psichology as a plus in design.
               </p>
             </div>
           </li>
