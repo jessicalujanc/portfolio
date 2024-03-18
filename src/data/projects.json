@@ -25,6 +25,6 @@
         "description": "This is a project made to learn backend with Javascript and MongoDB",
         "skills": ["Javascript", "Node", "Express", "MongoDB", "Postman"],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/jessicalujanc/node"
       }
   ]
