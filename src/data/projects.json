@@ -2,22 +2,22 @@
     {
       "title": "Project UTN",
       "description": "This project join backend, frontend Javascript languages and DB by building a web app",
-      "skills": ["Javascript", "React", "Express", "Node", "Sql", "API Rest", "Nodemailer", "Cloudinary"],
+      "skills": ["Javascript", "CSS", "React", "Express", "Node", "Sql", "API Rest", "Nodemailer", "Cloudinary"],
       "demo": "https://drive.google.com/file/d/16FsAzSsnp7OGNjUFCH3sw5Oe2NbRkyeW/view?usp=sharing",
       "source": "https://github.com/jessicalujanc/proyectofullstack/tree/main"
     },
     {
       "title": "Project EMC",
       "description": "This is a project made to a client who needs a static site for their business",
-      "skills": ["HTML", "Css", "Bootstrap"],
+      "skills": ["HTML", "CSS", "Bootstrap"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
       "title": "Project My Portfolio",
       "description": "It's a place where I can use and share the skills I work with",
-      "skills": ["Javascript", "React", "Vite"],
-      "demo": "https://www.example.com",
+      "skills": ["Javascript", "CSS", "React", "Vite"],
+      "demo": "https://portfoliojessicalc.netlify.app/",
       "source": "https://github.com/jessicalujanc/portfolio.git"
     },
     {
